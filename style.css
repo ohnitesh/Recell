@@ -3059,7 +3059,7 @@ figcaption {
     display: flex;
     position: relative
 }
-.footer_links_wrapper .color-white{
+.footer_links_wrapper .text-color-white{
     color:#fff!important;
 }
 .text-field {
