@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Recell : Contact us </title>
+    <link rel="stylesheet" href="contactus.css" />
+  </head>
+  <body
+    class="body"
+    data-new-gr-c-s-check-loaded="14.1162.0"
+    data-gr-ext-installed=""
+    cz-shortcut-listen="true"
+  >
+    <div class="page-wrapper">
+      <div class="global-styles w-embed">
+        <style>
+          /* Make text look crisper and more legible in all browsers */
+          body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
+          }
+
+          /* Focus state style for keyboard navigation for the focusable elements */
+          *[tabindex]:focus-visible,
+          input[type="file"]:focus-visible {
+            outline: 0.125rem solid #4d65ff;
+            outline-offset: 0.125rem;
+          }
+
+          /* Get rid of top margin on first element in any rich text element */
+          .w-richtext > :not(div):first-child,
+          .w-richtext > div:first-child > :first-child {
+            margin-top: 0 !important;
+          }
+
+          /* Get rid of bottom margin on last element in any rich text element */
+          .w-richtext > :last-child,
+          .w-richtext ol li:last-child,
+          .w-richtext ul li:last-child {
+            margin-bottom: 0 !important;
+          }
+
+          /* Prevent all click and hover interaction with an element */
+          .pointer-events-off {
+            pointer-events: none;
+          }
+
+          /* Enables all click and hover interaction with an element */
+          .pointer-events-on {
+            pointer-events: auto;
+          }
+
+          /* Create a class of .div-square which maintains a 1:1 dimension of a div */
+          .div-square::after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+          }
+
+          /* Make sure containers never lose their center alignment */
+          .container-medium,
+          .container-small,
+          .container-large {
+            margin-right: auto !important;
+            margin-left: auto !important;
+          }
+
+          /* 
+        Make the following elements inherit typography styles from the parent and not have hardcoded         values. 
+        Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+        Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+        */
+          /*
+        a,
+        .w-input,
+        .w-select,
+        .w-tab-link,
+        .w-nav-link,
+        .w-dropdown-btn,
+        .w-dropdown-toggle,
+        .w-dropdown-link {
+          color: inherit;
+          text-decoration: inherit;
+          font-size: inherit;
+        }
+        */
+
+          /* Apply "..." after 3 lines of text */
+          .text-style-3lines {
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+          }
+
+          /* Apply "..." after 2 lines of text */
+          .text-style-2lines {
+            display: -webkit-box;
+            overflow: hidden;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+          }
+
+          /* Adds inline flex display */
+          .display-inlineflex {
+            display: inline-flex;
+          }
+
+          /* These classes are never overwritten */
+          .hide {
+            display: none !important;
+          }
+
+          @media screen and (max-width: 991px) {
+            .hide,
+            .hide-tablet {
+              display: none !important;
+            }
+          }
+          @media screen and (max-width: 767px) {
+            .hide-mobile-landscape {
+              display: none !important;
+            }
+          }
+          @media screen and (max-width: 479px) {
+            .hide-mobile {
+              display: none !important;
+            }
+          }
+
+          .margin-0 {
+            margin: 0rem !important;
+          }
+
+          .padding-0 {
+            padding: 0rem !important;
+          }
+
+          .spacing-clean {
+            padding: 0rem !important;
+            margin: 0rem !important;
+          }
+
+          .margin-top {
+            margin-right: 0rem !important;
+            margin-bottom: 0rem !important;
+            margin-left: 0rem !important;
+          }
+
+          .padding-top {
+            padding-right: 0rem !important;
+            padding-bottom: 0rem !important;
+            padding-left: 0rem !important;
+          }
+
+          .margin-right {
+            margin-top: 0rem !important;
+            margin-bottom: 0rem !important;
+            margin-left: 0rem !important;
+          }
+
+          .padding-right {
+            padding-top: 0rem !important;
+            padding-bottom: 0rem !important;
+            padding-left: 0rem !important;
+          }
+
+          .margin-bottom {
+            margin-top: 0rem !important;
+            margin-right: 0rem !important;
+            margin-left: 0rem !important;
+          }
+
+          .padding-bottom {
+            padding-top: 0rem !important;
+            padding-right: 0rem !important;
+            padding-left: 0rem !important;
+          }
+
+          .margin-left {
+            margin-top: 0rem !important;
+            margin-right: 0rem !important;
+            margin-bottom: 0rem !important;
+          }
+
+          .padding-left {
+            padding-top: 0rem !important;
+            padding-right: 0rem !important;
+            padding-bottom: 0rem !important;
+          }
+
+          .margin-horizontal {
+            margin-top: 0rem !important;
+            margin-bottom: 0rem !important;
+          }
+
+          .padding-horizontal {
+            padding-top: 0rem !important;
+            padding-bottom: 0rem !important;
+          }
+
+          .margin-vertical {
+            margin-right: 0rem !important;
+            margin-left: 0rem !important;
+          }
+
+          .padding-vertical {
+            padding-right: 0rem !important;
+            padding-left: 0rem !important;
+          }
+
+          /* Fluid Responsive */
+          body {
+            min-height: 0vw;
+            font-size: calc(0.5357142857142858vw + 0.5178571428571429em);
+          }
+
+          /* Min Font Size */
+          @media screen and (max-width: 991px) {
+            body {
+              font-size: 0.875em;
+            }
+          }
+
+          /* Animate Line */
+          :root {
+            --animate-line-color: #efeae3;
+            --animate-line-speed: 0.2s;
+            --animate-line-ease: cubic-bezier(0.12, 0, 0.39, 0);
+          }
+          .animate-line {
+            display: inline-block;
+            position: relative;
+            overflow-x: hidden;
+          }
+          .animate-line::after {
+            pointer-events: none;
+            background-color: var(--animate-line-color);
+            content: "";
+            height: 1.5px;
+            position: absolute;
+            left: auto;
+            top: auto;
+            right: 0%;
+            bottom: 0%;
+            width: 0%;
+            transition: width var(--animate-line-ease) var(--animate-line-speed);
+          }
+          .animate-line:hover::after {
+            width: 100%;
+            right: auto;
+            left: 0%;
+          }
+
+          .animate-line.color-type-2 {
+            --animate-line-color: #0b0500;
+          }
+
+          /* Custom pointer */
+          .pointer---wrap {
+            pointer-events: none;
+          }
+        </style>
+
+        <style>
+          @media screen and (min-width: 992px) {
+            /* Animate Circle */
+            :root {
+              --circle-btn-bg: #0b0500;
+              --circle-btn-text: #ffffff;
+              --circle-btn-speed: 0.3s;
+              --circle-btn-half-speed: 0.15s;
+              --circle-ease-out: cubic-bezier(0.61, 1, 0.88, 1);
+              --circle-ease-in: cubic-bezier(0.12, 0, 0.39, 0);
+            }
+            .reveal-circle {
+              position: relative;
+              overflow: hidden;
+              -webkit-mask-image: -webkit-radial-gradient(white, black);
+            }
+            .reveal-circle:hover {
+              color: var(--circle-btn-text);
+              background-color: var(--circle-btn-bg);
+              transition: background-color 0s linear var(--circle-btn-speed);
+            }
+            .reveal-circle::after {
+              pointer-events: none;
+              background-color: var(--circle-btn-bg);
+              transform: translateY(5em);
+              content: "";
+              z-index: -1;
+              position: absolute;
+              width: 100%;
+              padding-top: 100%;
+              left: 0%;
+              top: 0%;
+              right: 0%;
+              bottom: auto;
+              border-radius: 50%;
+              transition: border-radius var(--circle-btn-half-speed)
+                  var(--circle-ease-in) 0s,
+                transform var(--circle-btn-speed) var(--circle-ease-in);
+            }
+            .reveal-circle:hover::after {
+              border-radius: 0%;
+              transform: translateY(0em);
+              transition: border-radius var(--circle-btn-half-speed)
+                  var(--circle-ease-out) var (--circle-btn-half-speed),
+                transform var(--circle-btn-speed) var(--circle-ease-out);
+            }
+
+            .reveal-circle.color-type-2 {
+              --circle-btn-bg: #efeae3;
+              --circle-btn-text: #0b0500;
+            }
+          }
+        </style>
+      </div>
+
+      <div
+        data-animation="default"
+        class="header w-nav"
+        data-easing2="ease-in"
+        fs-scrolldisable-element="smart-nav"
+        data-easing="ease-out"
+        data-collapse="small"
+        data-w-id="489064cb-9577-b618-a8e4-54da4629fd67"
+        role="banner"
+        data-duration="400"
+      >
+        <div class="header_container">
+          <a href="/" class="header_logo-link w-nav-brand" aria-label="home"
+            ><img
+              src="./Frame 123.png"
+              loading="lazy"
+              class="header_logo"
+          /></a>
+          <nav role="navigation" class="header_menu w-nav-menu">
+            <a href="/Home" class="header_link reveal-circle w-inline-block"
+              ><div class="header_link_dot"></div>
+              <div class="header_link_text">Home</div></a
+            ><a href="/newsroom" class="header_link reveal-circle w-inline-block"
+              ><div class="header_link_dot"></div>
+              <div class="header_link_text">newsroom</div></a
+            ><a
+              href="/contact"
+              aria-current="page"
+              class="header_link reveal-circle w-inline-block w--current"
+              ><div class="header_link_dot"></div>
+              <div class="header_link_text">Contact</div></a
+            >
+          </nav>
+          <div
+            fs-scrolldisable-element="toggle"
+            class="header_menu-button w-nav-button"
+            style="-webkit-user-select: text"
+            aria-label="menu"
+            role="button"
+            tabindex="0"
+            aria-controls="w-nav-overlay-0"
+            aria-haspopup="menu"
+            aria-expanded="false"
+          >
+            <div class="menu_link">
+              <div class="menu-icon">
+                <div class="menu-icon_line-top"></div>
+                <div class="menu-icon_line-bottom"></div>
+              </div>
+              <div class="menu_link_text">Menu</div>
+            </div>
+          </div>
+        </div>
+        <div class="header_overlay"></div>
+        <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+      </div>
+      <main class="main-wrapper">
+        <!-- <h1 class="contact-heading">Contact us</h1> -->
+        <section class="contact_section">
+          
+          <section class="contact_section">
+            <div class="container">
+              <div class="contact_wrapper">
+                <div
+                  data-w-id="ddba9ebc-9bd6-7f35-e142-2bb812d04d08"
+                  style="
+                    transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1)
+                      rotateX(0deg) rotateY(0deg) rotateZ(0deg)
+                      skew(0deg, 0deg);
+                    opacity: 1;
+                    transform-style: preserve-3d;
+                  "
+                  class="map_wrapper"
+                >
+                  <div class="map_height">
+                    <a href="https://maps.app.goo.gl/hyFyeEz3hKAyJ4R28">
+                      <img
+                      src="./map-image.png"
+                      loading="lazy"
+                      sizes="(max-width: 767px) 93vw, (max-width: 991px) 36vw, 38vw"
+                      class="image"
+                    />
+                    </a>
+                  </div>
+                </div>
+                <div class="content_wrapper">
+                  <div class="contact_content">
+                    <div class="heading_wrap">
+                      <h1
+                        data-w-id="2df42a85-0274-06a1-2caa-21263af942a5"
+                        style="
+                          transform: translate3d(0px, 0%, 0px)
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(0deg) skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                        "
+                        class="contact_heading-1"
+                      >
+                        let's talk
+                      </h1>
+                    </div>
+                    <div class="heading_wrap">
+                      <h1
+                        data-w-id="075545f0-e48b-1949-8279-20169f4b8d40"
+                        style="
+                          transform: translate3d(0px, 0%, 0px)
+                            scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                            rotateZ(0deg) skew(0deg, 0deg);
+                          transform-style: preserve-3d;
+                        "
+                        class="contact_heading-2"
+                      >
+                        future
+                      </h1>
+                    </div>
+                  
+                    <div
+                      data-w-id="3f0509ab-4c14-a874-d63c-6f5e2aa34bff"
+                      style="opacity: 1"
+                      class="contact-gradient-wrapper"
+                    >
+                      <div class="who-shapes-wrapper">
+                        <div
+                          style="
+                            transform: translate3d(2.7445%, -3.8423%, 0px)
+                              scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            will-change: transform;
+                          "
+                          class="who-shape-2"
+                        ></div>
+                        <div
+                          style="
+                            transform: translate3d(0.5489%, -2.47005%, 0px)
+                              scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                              rotateZ(0deg) skew(0deg, 0deg);
+                            transform-style: preserve-3d;
+                            will-change: transform;
+                          "
+                          class="who-shape-1"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contact_points">
+                    <div
+                      data-w-id="780020fa-1ade-f99d-bc6c-25d020158dc1"
+                      style="opacity: 1"
+                      class="heading-style-h4"
+                    >
+                    Let's Transform E-waste 
+                    </div>
+                    <div
+                      data-w-id="a8296101-f5be-d9b4-b845-5a6a897e2b38"
+                      style="
+                        transform: translate3d(0px, 0px, 0px)
+                          scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                          rotateZ(0deg) skew(0deg, 0deg);
+                        transform-style: preserve-3d;
+                      "
+                      class="line"
+                    ></div>
+                    <div
+                      data-w-id="182dfed7-cc10-fd19-6f8d-c103263c7725"
+                      style="opacity: 1"
+                      class="heading-style-h4"
+                    >
+                    Recycling Together for
+                    </div>
+                    <div
+                      data-w-id="5c5dd414-5310-069b-d87b-884fb76edf4d"
+                      style="
+                        transform: translate3d(0px, 0px, 0px)
+                          scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg)
+                          rotateZ(0deg) skew(0deg, 0deg);
+                        transform-style: preserve-3d;
+                      "
+                      class="line"
+                    ></div>
+                    <div
+                      data-w-id="cb2c5d14-49bb-25f5-def1-b8c539429dc9"
+                      style="opacity: 1"
+                      class="heading-style-h4"
+                    >
+                    a Greener Future
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="container">
+            <div class="contact_wrapper-1">
+
+              <div class="contact-section">
+                <div class="">
+                  <div class="screen">
+                    <div class="screen-header">
+                      <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                      </div>
+                      <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                      </div>
+                    </div>
+                    <div class="screen-body">
+                      <div class="screen-body-item left">
+                        <div class="app-title">
+                          <span>CONTACT</span>
+                          <span>US</span>
+                        </div>
+                        <div class="app-contact"></div>
+                      </div>
+                      <div class="screen-body-item">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                          <input type="hidden" name="access_key" value="e2b68bfa-59b6-41c2-92e1-308154351642">
+                        <div class="app-form">
+                          <div class="app-form-group">
+                            <input type="text" name="name" class="app-form-control" placeholder="NAME">
+                          </div>
+                          <div class="app-form-group">
+                            <input type="email" name="email" class="app-form-control" placeholder="EMAIL">
+                          </div>
+                          <textarea  name="message" class="app-form-control" placeholder="MESSAGE"></textarea>
+                          <!-- <div class="app-form-group">
+                            <input class="app-form-control" placeholder="CONTACT NO">
+                          </div> -->
+                          <!-- <div class="app-form-group">
+                            <textarea  name="message" class="app-form-control" placeholder="MESSAGE">
+                          </div> -->
+                        </form>
+                          <div class="app-form-group buttons">
+                            <!-- <button class="app-form-button">CANCEL</button> -->
+                            <button type="submit" class="app-form-button">SEND</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"> 
+        <div class="spacer"></div>
+        <div class="footer-component">
+          <div class="container is-1260">
+            <div class="footer_content">
+              <div class="footer_menu_wrap">
+                <a href="/Home" class="footer_menu_link">Home</a
+                ><a href="/newsroom" class="footer_menu_link">newsroom</a
+                ><a
+                  href="/contact"
+                  aria-current="page"
+                  class="footer_menu_link w--current"
+                  >Contact</a
+                >
+              </div>
+              <div class="newsletter_wrap">
+                <div class="newsletter-heading_wrapper">
+                  <p class="text-size-large text-color-white">
+                    Get industry insights and creative inspiration straight to
+                    your inbox.
+                  </p>
+                </div>
+                <div class="form-wrapper">
+                  <div class="form-block w-form">
+                    <form
+                      id="email-form"
+                      name="email-form"
+                      data-name="Email Form"
+                      method="get"
+                      class="form"
+                      data-wf-page-id="64d3dd9edfb41666c35b15ae"
+                      data-wf-element-id="626ff2cb-0fc6-2b3c-7abf-541026a7f826"
+                      aria-label="Email Form"
+                    >
+                      <input
+                        class="text-field w-input"
+                        maxlength="256"
+                        name="email-2"
+                        data-name="Email 2"
+                        placeholder="Email address"
+                        type="email"
+                        id="email-2"
+                        required=""
+                      /><input
+                        type="submit"
+                        data-wait="Please wait..."
+                        class="submit-button w-button"
+                        value="Submit"
+                      />
+                    </form>
+                    <div
+                      class="success-message w-form-done"
+                      tabindex="-1"
+                      role="region"
+                      aria-label="Email Form success"
+                    >
+                      <div class="text-block">Thanks for signing up!</div>
+                    </div>
+                    <div
+                      class="error-message w-form-fail"
+                      tabindex="-1"
+                      role="region"
+                      aria-label="Email Form failure"
+                    >
+                      <div class="text-block-2">
+                        Oops! Something went wrong.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-w-id="626ff2cb-0fc6-2b3c-7abf-541026a7f82f"
+            class="footer-gradient_wrapper"
+          >
+            <div
+              class="footer-shape-1"
+              style="
+                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(-7.3006deg)
+                  skew(0deg, 0deg);
+                transform-style: preserve-3d;
+                will-change: transform;
+              "
+            ></div>
+            <div
+              class="footer-shape-2"
+              style="
+                transform: translate3d(0px, 0px, 0px) scale3d(1.1, 1.1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(33.7014deg)
+                  skew(0deg, 0deg);
+                transform-style: preserve-3d;
+                will-change: transform;
+              "
+            ></div>
+            <div
+              class="footer-shape-3"
+              style="
+                transform: translate3d(-39%, 2%, 0px) scale3d(1.3, 1.3, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(94.2004deg)
+                  skew(0deg, 0deg);
+                transform-style: preserve-3d;
+                will-change: transform;
+              "
+            ></div>
+            <div class="footer-shape-4"></div>
+          </div>
+          <div class="footer-logo_wrapper">
+            <img
+              src=""
+              loading="lazy"
+              alt=""
+              class="footer-logo"
+            />
+          </div>
+          <div class="footer_links">
+            <div class="footer-line-break"></div>
+            <div class="footer_links_wrapper">
+              <div class="footer_copyright">
+                <p class="color-white">Copyright © Recell</p>
+              </div>
+              <div class="footer_location">
+                <div class="location_icon">
+                  <img
+                    src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15cb_Globe.svg"
+                    loading="lazy"
+                    alt=""
+                    class="image"
+                  />
+                </div>
+                <p class="color-white">Jaipur, IN</p>
+              </div>
+              <div class="footer_socials">
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="footer-link animate-line"
+                  >Instagram</a
+                >
+              </div>
+              <div class="footer_socials">
+                <a
+                  href="https://www.linkedin.com/company/"
+                  target="_blank"
+                  class="footer-link animate-line"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
