@@ -3059,14 +3059,19 @@ figcaption {
     display: flex;
     position: relative
 }
-.footer_links_wrapper .text-color-white{
-    color:#fff!important;
+::placeholder {
+    color: #000!important;
+}
+@media(max-width:500px){
+    ::placeholder {
+        color: #fff!important;
+    }
 }
 .text-field {
     color: var(--off-white);
     background-color: transparent;
     border: 1px #000;
-    border-bottom-color: rgba(239,234,227,.3);
+    border-bottom-color: #000;
     margin-bottom: 0;
     padding: 1em 0;
     font-family: Neuehaasdisplay roman,sans-serif;
@@ -3074,6 +3079,7 @@ figcaption {
     font-weight: 400;
     line-height: 1.4
 }
+
 
 .text-field:active {
     color: var(--off-white)
@@ -3112,7 +3118,7 @@ figcaption {
     color: #fff !important;
 }
 .form {
-    border-bottom: 1px solid rgba(239,234,227,.3);
+    border-bottom: 1px solid #0000003d;
     align-items: center;
     display: flex;
 }
