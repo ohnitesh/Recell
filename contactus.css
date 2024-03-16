@@ -3130,7 +3130,14 @@ figcaption {
     align-items: center;
     display: flex
 }
-
+::placeholder {
+    color: #000!important;
+}
+@media(max-width:500px){
+    ::placeholder {
+        color: #fff!important;
+    }
+}
 .form-wrapper {
     width: 100%;
     flex-direction: column;
