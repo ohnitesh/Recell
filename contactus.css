@@ -2128,9 +2128,9 @@ textarea.w-input,textarea.w-select {
 
 :root {
     --off-white: #161616;
-    --black: #00f380;
-    --sundown-orange: #00f380;
-    --orange: #00f380;
+    --black: #00BF63;
+    --sundown-orange: #00BF63;
+    --orange: #00BF63;
 }
 
 .w-form-formradioinput--inputType-custom {
