@@ -8443,7 +8443,7 @@ figcaption {
 .steps-section{
     margin-top: 2rem;
     padding-top: 2rem;
-    height: 380vh;
+    height: 300vh;
 }
 .card-stack-section{
     color: #fff;
@@ -8534,9 +8534,9 @@ figcaption {
     color: #00f382;
 }
 .steps-heading h1 p{
-    font-size: 2rem;
+    font-size: 1rem;
     color: #fff;
-    margin-top: 2rem;
+    margin-top: 1.2rem;
     letter-spacing: 2px;
 }
 
@@ -8552,7 +8552,7 @@ figcaption {
         font-size: 3.6rem;
     }
     .steps-heading h1 p{
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     .heading-style-display {
         font-size: 5.6em;
