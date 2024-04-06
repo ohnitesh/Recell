@@ -9078,7 +9078,7 @@ li{
     margin-top: 4rem;
 }
 .hw-section div{
-    width: 96%;
+    width: 90%;
 }
 .hw-heading{
     display: flex;
@@ -9173,7 +9173,7 @@ li{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         height: 30vh;
     }
     .hw-box{
@@ -9183,6 +9183,7 @@ li{
     }
     .hw-container{
         flex-direction: column;
+        align-items: start;
     }
     .hw-heading h1{
         font-size: 2rem;
