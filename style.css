@@ -8563,7 +8563,14 @@ s    z-index: 1;
     .steps-section{
         margin-top: 2rem;
         padding-top: 2rem;
-        height: 210vh;
+        height: 290vh;
+    }
+}
+@media(max-width:1300px){
+    .steps-section{
+        margin-top: 2rem;
+        padding-top: 2rem;
+        height: 250vh;
     }
 }
 @media(max-width:1050px){
@@ -9062,4 +9069,5 @@ li{
 }
 
 /*************footer End*****************/
+/* --------how-it-works-section------- */
 
