@@ -9200,4 +9200,9 @@ li{
         align-items: start;
         justify-content: start;
     }
+
+    /*--footer logo---*/
+    .col-lg-3 img{
+        height: 4.2rem!important;
+    }
 }
