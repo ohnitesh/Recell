@@ -2411,7 +2411,7 @@ figcaption {
     letter-spacing: .02em;
     text-transform: uppercase;
     font-family: Neuehaasdisplay roman,sans-serif;
-    font-size: .875em;
+    font-size: 1.6em;
     font-weight: 400;
     line-height: 1.2
 }
@@ -2618,7 +2618,7 @@ figcaption {
 .heading-style-display {
 s    z-index: 1;
     letter-spacing: -.03em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 5em;
     font-weight: 500;
@@ -5921,7 +5921,7 @@ s    z-index: 1;
     }
 
     .heading-style-h6.is-work {
-        font-size: 1em
+        font-size: 1.2em
     }
 
     .heading-style-h2 {
@@ -8626,7 +8626,8 @@ s    z-index: 1;
         width: 90vw;
     }
     .steps-section {
-        height: 285vh;
+        height: 295vh;
+        margin-bottom: 36rem!important;
     }
     .steps-heading{
         margin-left: 0;
@@ -8829,7 +8830,7 @@ s    z-index: 1;
 
 
 .new_footer_top {
-    padding: 120px 0px 270px;
+    padding: 50px 0px 180px;
     position: relative;
       overflow-x: hidden;
 }
@@ -9075,11 +9076,14 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4rem;
+    flex-direction: column;
 }
-.hw-section div{
+.hw-div{
+    width: 86vw;
+}
+/* .hw-section div{
     width: 90%;
-}
+} */
 .hw-heading{
     display: flex;
     flex-direction: row;
@@ -9088,24 +9092,24 @@ li{
     height: 30vh;
 }
 .hw-heading h1{
-    width: 100vw;
+    /* width: 50%; */
     font-size: 4vw;
 }
 .hw-heading p{
     color: #fff;
-    font-size: 1vw;
+    font-size: 1.2vw;
 }
 .hw-container{
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .hw-box{
     background-color: #37f49c0f;
     margin: 1rem;
-    padding: 2rem 0rem 1rem 1.2rem;
+    padding: 2rem 1.2rem 1rem 1.2rem;
     border-radius: 10px;
 }
 .hw-box div{
@@ -9166,20 +9170,26 @@ li{
     }
 }
 @media(max-width:500px){
+    .hw-section{
+        margin-top: -2rem;
+    }
     .hw-section div{
-        width: 95%;
+        width: 100%;
     }
     .hw-heading{
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: start;
+        justify-content: center;
         height: 30vh;
+    }
+    .hw-heading br{
+        display: none;
     }
     .hw-box{
         background-color: #37f49c0f;
         margin: .3rem 0;
-        padding: 2rem 0rem 2rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
     }
     .hw-container{
         flex-direction: column;
