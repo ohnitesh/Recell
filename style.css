@@ -2385,7 +2385,7 @@ figcaption {
     letter-spacing: -.03em;
     font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 1.25em;
-    margin-top: 12px;
+    margin: 1.4rem 0;
     font-weight: 500;
     line-height: 1;
     text-decoration: none
@@ -2616,11 +2616,11 @@ figcaption {
 }
 
 .heading-style-display {
-s    z-index: 1;
-    letter-spacing: -.03em;
+    z-index: 1;
+    letter-spacing: -.01em;
     /* text-transform: uppercase; */
     font-family: Neuehaasdisplay mediu,sans-serif;
-    font-size: 5em;
+    font-size: 5.45em;
     font-weight: 500;
     line-height: .8;
     position: relative
@@ -2637,12 +2637,14 @@ s    z-index: 1;
 
 .holding-hero_intro {
     max-width: 35em;
-    position: relative
+    position: relative;
+    margin-left: 2rem;
 }
 
 .holding-hero_header {
     text-align: left;
-    margin-right: 1.25em
+    margin-right: 1.25em;
+    margin-left: 1.4rem;
 }
 
 .home-hero_visual {
