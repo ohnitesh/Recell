@@ -8996,7 +8996,11 @@ li{
     -webkit-animation: myfirst 30s linear infinite;
     animation: myfirst 30s linear infinite;
 }
-
+.f_social_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 @-moz-keyframes myfirst {
