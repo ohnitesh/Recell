@@ -7041,7 +7041,8 @@ figcaption {
         font-size: 4em!important;
         font-weight: 500;
         line-height: 1.15;
-        display: inline
+        display: inline;
+        text-transform: capitalize!important;
     }
 
     .menu_link {
