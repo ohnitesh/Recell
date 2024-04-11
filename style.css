@@ -8688,6 +8688,7 @@ figcaption {
 
 .card-container .stack-card img{
     height: 6vw;
+    margin-bottom:1rem;
 }
 .card-container .stack-card h3,.card-container .stack-card h4{
     margin-bottom: 1rem;
