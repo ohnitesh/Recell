@@ -7598,7 +7598,6 @@ figcaption {
         flex-direction: column-reverse;
         align-items: stretch;
         margin-top: 5.875em;
-        padding-bottom: 3em
     }
 
     .heading-style-display {
@@ -9093,9 +9092,10 @@ li{
 .hw-heading{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     height: 30vh;
+    padding-top: 5rem;
 }
 .hw-heading h1{
     /* width: 50%; */
@@ -9222,3 +9222,10 @@ li{
         height: 4.2rem!important;
     }
 }
+
+@media (max-width:1000px){
+    .holding-hero_intro {
+        margin-left: 0rem;
+    }
+}
+
