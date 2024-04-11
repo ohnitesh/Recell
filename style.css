@@ -7036,11 +7036,10 @@ s    z-index: 1;
     .header_link_text {
         color: var(--black);
         letter-spacing: -.03em;
-        text-transform: uppercase;
         font-family: Neuehaasdisplay mediu,sans-serif;
-        font-size: 6em;
+        font-size: 4em!important;
         font-weight: 500;
-        line-height: 1.1;
+        line-height: 1.15;
         display: inline
     }
 
