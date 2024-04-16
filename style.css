@@ -3101,7 +3101,6 @@ figcaption {
     }
 }
 .text-field {
-    color: var(--off-white);
     background-color: transparent;
     border: 1px #000;
     border-bottom-color: #000;
@@ -3110,16 +3109,17 @@ figcaption {
     font-family: Neuehaasdisplay roman,sans-serif;
     font-size: 1em;
     font-weight: 400;
-    line-height: 1.4
+    line-height: 1.4;
+    color: #fff;
 }
 
 
 .text-field:active {
-    color: var(--off-white)
+    color: #fff;
 }
 
 .text-field:focus {
-    color: var(--off-white);
+    color: #fff;
     border-bottom-color: #efeae3;
     padding: 1em 0;
     font-family: Neuehaasdisplay roman,sans-serif;
@@ -3135,11 +3135,11 @@ figcaption {
 }
 
 .text-field::placeholder {
-    color: rgba(239,234,227,.5);
     font-family: Neuehaasdisplay roman,sans-serif;
     font-size: 1em;
     font-weight: 400;
-    line-height: 1.4
+    line-height: 1.4;
+    color: #ccc!important;
 }
 
 .footer-newsletter_wrapper {
@@ -3151,7 +3151,7 @@ figcaption {
     color: #fff !important;
 }
 .form {
-    border-bottom: 1px solid #0000003d;
+    border-bottom: 1px solid #c1c1c18f;
     align-items: center;
     display: flex;
 }
