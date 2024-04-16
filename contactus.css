@@ -4631,15 +4631,16 @@ figcaption {
     grid-row-gap: .75em;
     flex-direction: column;
     display: flex;
-    position: relative
-}
+    position: relative;
+    color:#fff;
+} 
 
 .line {
     width: 100%;
     height: 1px;
     background-color: var(--black);
     opacity: .2;
-    transform-origin: 0%
+    transform-origin: 0%;
 }
 
 .work_section {
