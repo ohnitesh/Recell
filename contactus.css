@@ -2349,7 +2349,8 @@ figcaption {
     font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 4.25em;
     font-weight: 500;
-    line-height: 1
+    line-height: 1;
+    color:#fff!important;
 }
 
 .heading-style-h1.w--current {
@@ -4632,7 +4633,7 @@ figcaption {
     flex-direction: column;
     display: flex;
     position: relative;
-    color:#fff;
+    color:#fff!important;
 } 
 
 .line {
