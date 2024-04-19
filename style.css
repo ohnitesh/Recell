@@ -3792,8 +3792,8 @@ figcaption {
 }
 
 .header_logo-link {
-    width: 9.375em;
-    padding-left: 0
+    padding-top: 2rem;
+    padding-left: 0;
 }
 
 .header_logo {
