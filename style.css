@@ -9030,11 +9030,13 @@ li{
 .f_social_icon a{
     margin-bottom: .6rem;
 }
-
-@media(max-width:720px){
-    .f_social_icon{
-      flex-direction:row;
-    }
+.f_social_icon a i{
+    color: #6a7695!important;
+}
+.f_social_icon span{
+    margin-left: 4px;
+    font-weight: 500;
+    color: #6a7695;
 }
 
 @-moz-keyframes myfirst {
