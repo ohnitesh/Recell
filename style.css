@@ -8751,14 +8751,16 @@ figcaption {
     font-size: 3rem;
 } */
 
+
 .slider{
-    width: 85vw;
-    max-width: 100vw;
-    height: 100vh;
+    width: 80vw;
+    /* max-width: 100vw; */
+    height: 85vh;
     margin: auto;
     position: relative;
     overflow: hidden;
-    border-radius:10px;
+    border-radius: 10px;
+    margin-left: 1.6rem;
 }
 .slider .list{
     position: absolute;
@@ -8770,11 +8772,31 @@ figcaption {
     transition: 1s;
 }
 .slider .list img{
-    width: 85vw;
+    width: 80vw;
     max-width: 100vw;
     height: 100%;
     object-fit: cover;
 }
+
+@media(max-width:500px){ 
+    .slider{
+        width: 85vw;
+        max-width: 100vw;
+        height: 100vh;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-left: 0rem;
+    }
+    .slider .list img{
+        width: 100vw;
+        max-width: 100vw;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
 .slider .buttons{
     position: absolute;
     top: 45%;
@@ -8821,6 +8843,7 @@ figcaption {
         height: 400px;
     }
 }
+
 
 
 
