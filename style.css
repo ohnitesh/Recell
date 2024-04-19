@@ -9114,9 +9114,10 @@ li{
 }
 .hw-box{
     background-color: #37f49c0f;
-    margin: 1rem;
+    margin: .4rem;
     padding: 2rem 1.2rem 1rem 1.2rem;
     border-radius: 10px;
+    width:50%;
 }
 .hw-box div{
     display: flex;
