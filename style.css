@@ -2239,13 +2239,13 @@ a {
     font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 1em;
     font-weight: 500;
-    line-height: 1.4
+    line-height: 1.4;
 }
 
 ul,ol {
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 1.5rem
+    padding-left: 0;
 }
 
 li {
@@ -2621,7 +2621,7 @@ figcaption {
     font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 5.45em;
     font-weight: 500;
-    line-height: .8;
+    line-height: .95;
     position: relative
 }
 
@@ -2652,7 +2652,7 @@ figcaption {
     margin-top: 3.75em;
     display: block;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .hero-video_wrapper {
@@ -2673,7 +2673,7 @@ figcaption {
     top: 0%;
     bottom: 0%;
     left: 0%;
-    right: 0%
+    right: 0%;
 }
 
 .image.radius-8 {
@@ -3792,7 +3792,7 @@ figcaption {
 }
 
 .header_logo-link {
-    padding-top: 2rem;
+    padding-top: 0rem;
     padding-left: 0;
 }
 
@@ -3805,7 +3805,15 @@ figcaption {
     top: 0%;
     bottom: 0%;
     left: 0%;
-    right: 0%
+    right: 0%;
+    height: 6rem;
+}
+
+@media(max-width:500px){
+    .header_logo {
+        height: 3rem;
+    }
+    
 }
 
 .header_menu {
@@ -8760,7 +8768,7 @@ figcaption {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    margin-left: 1.6rem;
+    /* margin-left: 1.6rem; */
 }
 .slider .list{
     position: absolute;
@@ -8858,7 +8866,7 @@ figcaption {
 
 
 .new_footer_top {
-    padding: 50px 0px 180px;
+    padding: 50px 0px 110px;
     position: relative;
       overflow-x: hidden;
 }
@@ -8923,8 +8931,8 @@ li{
     margin-bottom: 0px;
 }
 .new_footer_top .f_social_icon a {
-    width: 44px;
-    height: 44px;
+    width: 40px;
+    height: 40px;
     line-height: 43px;
     background: transparent;
     border: 1px solid #e2e2eb;
@@ -8982,6 +8990,9 @@ li{
     margin-bottom: 30px;
     color: #00BF63;
 }
+.new_footer_top .f-title-socials{
+    margin-bottom: 22px;
+}
 .f_600 {
     font-weight: 600;
 }
@@ -9017,7 +9028,7 @@ li{
     background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyLGwEUVwPK6Vi8xXMymsc-ZXVwLWyXhogZxbcXQYSY55REw_0D4VTQnsVzCrL7nsyjd0P7RVOI5NKJbQ75koZIalD8mqbMquP20fL3DxsWngKkOLOzoOf9sMuxlbyfkIBTsDw5WFUj-YJiI50yzgVjF8cZPHhEjkOP_PRTQXDHEq8AyWpBiJdN9SfQA/s16000/cyclist.gif") no-repeat center center;
     width: 88px;
     height: 100px;
-  background-size:100%;
+    background-size:100%;
     bottom: 0;
     left: 38%;
     position: absolute;
@@ -9030,12 +9041,27 @@ li{
     flex-direction:column;
     justify-content: center;
     color:#fff!important;
+    margin-bottom: -10px;
+}
+.f_social_icon div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f_social_icon div span{
+    margin-top: -14px;
+    margin-left: 10px;
 }
 .f_social_icon a{
     margin-bottom: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .f_social_icon a i{
     color: #6a7695!important;
+    text-align: center;
 }
 .f_social_icon span{
     margin-left: 4px;
