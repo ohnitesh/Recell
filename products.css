@@ -3,7 +3,10 @@
     align-items: center;
     justify-content: space-between;
     margin: 1rem 3.4rem;
-    padding-top: 8rem;
+    padding: 2rem 0;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-radius: 6px;
 }
 
 #column{
@@ -24,18 +27,11 @@ h3{
 }
 
 p{
-    font-style: italic;
     color: rgb(217, 217, 217);
 }
 
 .container{
     width: 100%;
-}
-
-.input{
-    display: flex;
-    justify-content: center;
-    margin-block: 20px 50px;
 }
 
 .product-list{
@@ -55,8 +51,8 @@ p{
 }
 
 .product{
-    /* border: 1px solid #606060; */
-    height: 56vh;
+    border: 1px solid #606060;
+    /* height: 58vh; */
     padding: 10px 10px 20px 10px;
     border-radius: 10px;
     display: flex;
@@ -64,8 +60,9 @@ p{
     justify-content: space-between;
     align-items: center;
     transition: filter 0.1s ease-in-out, opacity 0.1s ease-in-out;
-    margin: .4rem;
-    margin-bottom: 4rem;
+    margin: 1.2rem;
+    /* margin-bottom: 4rem; */
+    box-shadow: rgba(125, 125, 125, 0.24) 0px 3px 8px;
 }
 
 .img{
@@ -80,9 +77,12 @@ p{
     flex-direction: column;
     width: 100%;
 }
-
+.product .info p{
+    margin-top: 10px;
+}
 .last-product{
     width: 55%;
+    margin-bottom: 16vh;
 }
 
 
@@ -92,7 +92,7 @@ p{
         align-items: center;
         justify-content: space-between;
         margin: .6rem 1.4rem;
-        padding-top: 5rem;
+        padding: 1rem;
     }
     .main-heading br{
         display: none;
@@ -102,7 +102,7 @@ p{
     }
     .product{
         /* border: 1px solid #606060; */
-        height: 55vh;
+        /* height: 55vh; */
         padding: 10px 10px 10px 10px;
         border-radius: 10px;
         display: flex;
@@ -124,8 +124,8 @@ p{
         align-items: start;
         flex-direction: column;
         justify-content: space-between;
-        margin: .6rem 1.4rem;
-        padding-top: 5rem;
+        margin: .6rem 1rem;
+        padding: 1rem;
     }
     .main-heading p{
         width: 90vw;
@@ -136,6 +136,6 @@ p{
         align-items: center;
     }
     .product{
-        margin-bottom: 4.2rem;
+        margin-bottom: 1.2rem;
     }
 }
