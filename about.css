@@ -34,10 +34,9 @@ body{
 .about-content-left{
   width: 40%;
 }
-.about-content-right{
-  width: ;
+.about-content-right h3{
+  margin-bottom: 1rem;
 }
-
 #cards {
     list-style: none;
     display: grid;
@@ -61,6 +60,7 @@ body{
   border: 2px solid #ccc;
   border-radius: 16px;
   box-shadow: rgba(155, 155, 155, 0.35) 2px 7px 17px;
+  background-color: #1b1a1a;
 }
 
 .card-content {
@@ -119,6 +119,15 @@ p {
   color:aliceblue;
 }
 
+.card-top{
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.card-top h6{
+    color: aliceblue;
+    font-weight: 500;
+}
 
 #card-1 {
   --index: 1;
@@ -137,6 +146,14 @@ p {
 #card-4 {
   --index: 4;
   top: 30px;
+}
+
+.about-content-right .row p{
+  color: aliceblue!important;
+}
+
+.card-content p{
+  color: aliceblue;
 }
 
 /* Animation */
@@ -223,5 +240,11 @@ p {
   }
   .card-content > div p{
     color:antiquewhite;
+  }
+  .card-top{
+    position: relative;
+    top: 30px;
+    margin-bottom: 2rem;
+    left: 20px;
   }
 }
