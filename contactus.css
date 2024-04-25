@@ -4571,6 +4571,10 @@ figcaption {
     position: relative
 }
 
+.contact_section {
+    padding-top: 0!imporant;
+}
+
 .contact_content {
     grid-column-gap: 0em;
     grid-row-gap: 0em;
