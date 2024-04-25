@@ -4555,7 +4555,7 @@ figcaption {
 
 .contact_section {
     min-height: 100vh;
-    padding-top: 8.75em;
+    padding-top: 0;
     padding-bottom: 8.75em;
     position: relative
 }
