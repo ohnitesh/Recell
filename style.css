@@ -2215,7 +2215,6 @@ h5 {
 h6 {
     color: var(--black);
     letter-spacing: .02em;
-    text-transform: uppercase;
     margin-top: 0;
     margin-bottom: .5em;
     font-family: Neuehaasdisplay roman,sans-serif;
