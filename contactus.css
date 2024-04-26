@@ -4545,7 +4545,11 @@ figcaption {
     position: relative;
     overflow: visible
 }
-
+.map iframe {
+    height: 32vw;
+    width: 32vw;
+    border-radius: 50%;
+}
 /* .contact_wrapper {
     grid-column-gap: 3em;
     grid-row-gap: 3em;
