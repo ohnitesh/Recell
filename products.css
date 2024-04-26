@@ -70,11 +70,8 @@ p{
 }
 
 .img{
-    height: 300px;
-    width: 100%;
-    margin-bottom: 2rem;
+    object-fit:cover!important;
 }
-
 .product .info{
     display: flex;
     align-items: start;
