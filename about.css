@@ -56,11 +56,11 @@ body{
   position: sticky;
   top: 18px;
   padding-top: calc(var(--index) * var(--card-top-offset));
-  width: 96vw;
   border: 2px solid #ccc;
   border-radius: 16px;
   box-shadow: rgba(155, 155, 155, 0.35) 2px 7px 17px;
   background-color: #1b1a1a;
+  width: 95vw;
 }
 
 .card-content {
@@ -74,12 +74,11 @@ body{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   align-items: stretch;
-  padding: 1.4em;
 }
 
 .card-content > div {
   grid-area: text;
-  width: 75%;
+  width: 80%;
   max-width: 800px;
   place-self: center;
   text-align: left;
@@ -95,28 +94,9 @@ body{
 
 .card-content > figure > img {
   width: 100%;
-  height: 100%;
+  height: 80%;
   object-fit: cover;
   border-radius: .4em;
-}
-
-h1 {
-  font-weight: 300;
-  font-size: 3.2vw;
-  margin-bottom: 1rem;
-}
-
-h2 {
-  font-weight: bold;
-  font-size: 2.5vw;
-  margin: 0;
-}
-
-p {
-  font-weight: 300;
-  line-height: 1.42;
-  font-size: 1.1vw;
-  color:aliceblue;
 }
 
 .card-top{
@@ -213,13 +193,13 @@ p {
   }
   h1 {
     font-weight: 300;
-    font-size: 4vw;
+    font-size: 4vw!important;
     margin-bottom: 1rem;
   }
   
   h2 {
     font-weight: bold;
-    font-size: 3vw;
+    font-size: 3vw!important;
     margin: 0;
   }
   
