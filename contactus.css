@@ -8865,4 +8865,16 @@ li{
 /*************footer End*****************/
 
 
+.map iframe{
+    height: 32vw;
+    width: 32vw;
+    border-radius: 50%;
+}
+@media(max-width:500px){
+   .map iframe{
+      height: 92vw;
+      width: 92vw;
+      border-radius: 50%;
+    }
+}
 
