@@ -8,7 +8,8 @@ body{
 }
 .header-img img{
    width:100vw;
-  height:90vh;
+  height:100vh;
+  padding:2rem;
 }
 .main-heading,.about-content,.values-heading{
   display: flex;
