@@ -6,6 +6,10 @@ body{
 .main-wrapper{
   margin-top: 6vw;
 }
+.header-img{
+   width:100vw;
+  height:90vh;
+}
 .main-heading,.about-content,.values-heading{
   display: flex;
   align-items: center;
@@ -68,7 +72,6 @@ body{
   box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.1), 0 1em 2em rgba(0, 0, 0, 0.1);
   background: #1b1a1a;
   color: #131212;
-  border-radius: 2rem;
   overflow: hidden;
   display: grid;
   grid-template-areas: "text img";
@@ -300,7 +303,6 @@ body{
   box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.1), 0 1em 2em rgba(0, 0, 0, 0.1);
   background: #1b1a1a;
   color: #131212;
-  border-radius: 2rem;
   overflow: hidden;
   display: grid;
   grid-template-areas: "text img";
@@ -424,6 +426,9 @@ body{
   }
   .main-heading,.values-heading{
     margin: .8rem .8rem;
+  }
+  .row p{
+    width: auto;
   }
   h1 {
     font-weight: 300;
