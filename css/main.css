@@ -8725,8 +8725,9 @@ html {
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
 body {
-  overflow-x: hidden; }
-
+  overflow-x: hidden;
+  padding:0;
+}
 
 .secondfont, .navbar-brand {
   font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", "Arial"; }
