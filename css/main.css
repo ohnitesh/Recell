@@ -8725,8 +8725,7 @@ html {
 /* Custom Mixins -------------------- */
 /* Base Styles -------------------- */
 body {
-  overflow-x: hidden;
-  padding-top: 69.75px; }
+  overflow-x: hidden; }
 
 .sticky-top {
   top: 69.75px; }
