@@ -4,7 +4,10 @@ html {
     font-family: sans-serif
 }
 
-
+::selection {
+  color: #fff;
+  background: #00BF63;
+}
 *::-webkit-scrollbar {
   height: 9px;
   width: 9px;
