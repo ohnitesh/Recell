@@ -79,6 +79,25 @@
 	    margin-right: 0vh;
 	  }
 	}
+		.container-2{
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		width: 100vw!important;
+		/* overflow: hidden; */
+		margin-left: -4vw;
+	}
+	@media(max-width:760px){
+		.container-2{
+		display: flex;
+		flex-direction: column;
+		align-items: start;
+		justify-content: start;
+		width: 100vw!important;
+		/* overflow: hidden; */
+		margin-left: 4vw;
+	   }
+	}
 </style>
 </head>
 <body>
@@ -379,18 +398,24 @@ FOOTER
 
 <footer class="new_footer_area bg_color">
     <div class="new_footer_top">
+        <div>
             <div class="row container-2 center-align">
-                <div class="col-lg-3 col-md-6">
+                <div class="footer-section footer-section-1">
                     <img style="height: 8.4vw;" src="./images/logo.png" alt="">
                     <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
                         <a href="/contact.html"><h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3></a>
-                        <h5 style="margin-bottom: 1.2rem;">KA-24 , JTM MALL, JAIPUR -302017</h5>
+                        <h6 style="margin-bottom: 1.2rem;text-transform: uppercase;">KA-24 , JTM MALL, JAIPUR -302017</h6>
+                        <h6 style="margin-bottom: 1.2rem;">+91 8209190461</h6>
+                        <h6 style="margin-bottom: 1.2rem;">info@recell.in</h6>
                         <p>Don’t miss any updates of our new templates and extensions.!</p>
-                       <form id="email-form" name="email-form" data-name="Email Form"      method="get" class="form" aria-label="Email Form"><input class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Email address" type="email" id="email-2" required=""><input type="submit" class="submit-button w-button" value="Submit">
-                    </form>
+                       <form id="email-form" action="https://api.web3forms.com/submit" name="email-form" data-name="Email Form"      method="post" class="form" aria-label="Email Form">
+                        <input type="hidden" name="access_key" value="e2b68bfa-59b6-41c2-92e1-308154351642">
+                        <input class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Email address" type="email" id="email-2" required="">
+                        <input type="submit" class="submit-button w-button" value="Submit">
+                       </form>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="footer-section">
                     <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
                         <h3 class="f-title f_600 t_color f_size_18">Links</h3>
                         <ul class="list-unstyled f_list">
@@ -403,7 +428,7 @@ FOOTER
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="footer-section">
                     <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
                         <h3 class="f-title f_600 t_color f_size_18">Help</h3>
                         <ul class="list-unstyled f_list">
@@ -416,7 +441,7 @@ FOOTER
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="footer-section">
                     <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
                         <h3 class="f-title f_600 t_color f_size_18 f-title-socials">Connect with us</h3>
                         <div class="f_social_icon">
@@ -443,10 +468,7 @@ FOOTER
                     </div>
                 </div>
             </div>
-        <!-- <div class="footer_bg">
-            <div class="footer_bg_one"></div>
-            <div class="footer_bg_two"></div>
-        </div> -->
+        </div>
     </div>
 </footer>
     
